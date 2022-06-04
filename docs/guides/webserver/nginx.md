@@ -36,7 +36,7 @@
     systemctl enable nginx
     ```
 
-6. Edit `/etc/nginx/sites-available/default` to:
+6. Edit `/etc/nginx/sites-available/default` to (comment out the basic auth lines if you don't want additional basic-auth to get to your pi pages):
 
     ```nginx
     server {
